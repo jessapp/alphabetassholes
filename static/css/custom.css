@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Junction-webfont';
+    src: url('static/fonts/Junction-webfont.eot');
+    src: local('☺'), 
+        url('fonts/Junction-webfont.woff') format('woff'), 
+        url('fonts/Junction-webfont.ttf') format('truetype'), 
+        url('fonts/Junction-webfont.svg#webfontoNEpZXy2') format('svg');
+}
+
+.navbar-header li {
+	list-style-type: none;
+}
+
+.navbar {
+	opacity: .80;
+}
+
+.content {
+	margin: 25 200 200px;
+	width: 900px;
+}
+
+.imageBorder
+{
+    border: 2px solid #ffffff;
+}
+
+body{
+	background-color: #ecf0f1;
+  text-align: center;
+}
+
+p {
+	color: #2c3e50;
+	font-family: 'Helvetica';
+  align-items: center;
+  justify-content: center;
+  margin-left: 300px
+
+}
+
+h1 {
+	color: #34495e;
+
+}
+
+h2 {
+	color: #2980b9;
+	font-family: 'Helvetica';
+}
+
+h3 {
+	color: #16a085;
+	font-family: 'Helvetica';
+  align-items: center;
+  justify-content: center;
+  margin-left: 350px
+}
+
+h4 {
+	color: #8e44ad;
+	font-family: 'Helvetica';
+}
+
+a:link {
+	color: #3498db;
+}
+
+a:visited {
+	color: #2c3e50;
+}
+
+div.container {
+}

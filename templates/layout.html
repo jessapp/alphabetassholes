@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+<head>
+	<title>An Alphabet of Assholes</title>
+<link rel="stylesheet" type="text/css" href="static/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="static/custom.css">
+</head>
+
+<style>
+body{
+	text-align: center;
+}
+</style> 
+
+<!-- Navbar -->
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <ul>
+        <li><a class="navbar-brand" href="/">An Alphabet of Assholes</a></li>
+      </ul>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="/about">About</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+	{% block body %}{% endblock %}
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>
